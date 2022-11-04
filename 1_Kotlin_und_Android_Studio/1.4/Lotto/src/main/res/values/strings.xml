@@ -1,0 +1,5 @@
+<resources>
+    <string name="app_name">Lotto</string>
+    <string name="draw">ZIEHUNG</string>
+    <string name="ticket">Spielschein:</string>
+</resources>

@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">2.1 - LiveApp</string>
+    <string name="first_name">Firstname</string>
+    <string name="last_name">Lastname</string>
+    <string name="politness">politeness</string>
+    <string name="generate">generate</string>
+
+    <string name="greeting_polite">Good Day %1$s %2$s! \nIt is a sunshine to have you here.</string>
+    <string name="greeting">Hey %1$s! \nLet me know when you need something ;)</string>
+</resources>

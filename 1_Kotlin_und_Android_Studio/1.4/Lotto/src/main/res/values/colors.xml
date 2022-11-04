@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <!-- SI colors -->
+    <color name="SI_DeepPurple">#FF060F38</color>
+    <color name="SI_Purple">#FF7656FD</color>
+    <color name="SI_Yellow">#FFFFF250</color>
+    <color name="SI_Grey">#FFF2F2F2</color>
+
+    <!-- more colors -->
+    <color name="black">#FF000000</color>
+    <color name="white">#FFFFFFFF</color>
+    <color name="ball_color1">#EDEDED</color>
+    <color name="ball_color2">#5F77FF</color>
+    <color name="ball_color3">#4DE7FF</color>
+    <color name="ball_color4">#48FF94</color>
+    <color name="ball_color5">#FFE249</color>
+    <color name="ball_color6">#FF9647</color>
+    <color name="ball_color7">#FF6D49</color>
+    <color name="ball_color8">#C248FF</color>
+    <color name="ball_color9">#333333</color>
+
+    <!-- background dark -->
+    <color name="backgroundD1">#FF121212</color>
+    <color name="backgroundD2">#FF1D1D1D</color>
+    <color name="backgroundD3">#FF282828</color>
+
+    <!-- background light -->
+    <color name="backgroundL1">#FFF2F2F2</color>
+    <color name="backgroundL2">#FFCACACA</color>
+    <color name="backgroundL3">#FFA2A2A2</color>
+
+</resources>

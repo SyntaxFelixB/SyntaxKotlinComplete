@@ -1,0 +1,41 @@
+<resources>
+    <string name="app_name">User Input</string>
+
+
+
+
+<!--Anti-Witze (bitte ergänzen :))-->
+    <string name="joke1">Einem Mann fällt sein Smartphone runter. Dem Gerät ist kein Schaden entstanden. Wie ist das möglich?
+            Es war im Flugmodus.</string>
+    
+    <string name="joke2">Treffen sich zwei Kerzen.
+            Fragt die eine: "Und was hast du vor?"
+            Meint die andere: "Ich geh aus!"</string>
+    
+    <string name="joke3">Zwei Bekloppte beißen in Eisenbahnschienen.
+            Sagt der Eine: "Boa, sind die hart!"
+            Sagt der Andere: "Geh doch da drüben hin, da ist ne Weiche!"</string>
+    
+    <string name="joke4">Stehen zwei Schafe auf der Wiese. Sagt das eine:
+            "Määäh!"
+            Sagt das andere: "Mäh doch selber!"</string>
+
+    <string name="joke5">"Könnt ihr mir sagen, warum euer Hund jedes Mal in die Ecke rennt, wenn es an der Tür klingelt?"
+            "Weil er ein Boxer ist!"</string>
+
+    <string name="joke6">Gehen zwei Sandkörner durch die Wüste.
+            Sagt das eine: "Boah - ist hier was los!"</string>
+
+    <string name="joke7">Was ist grün und rennt durch den Wald? Ein Rudel Gurken.</string>
+
+    <string name="joke8">Kommt ein Neutron in die Disco.
+            Sagt der Türsteher: "Sorry, Du kommst nicht rein. Heute nur für geladene Gäste!"</string>
+    
+    <string name="joke9">Zwei Psychiater stehen am Bahnhof und haben den Zug verpasst.
+            Sagt der eine zum anderen: "Sollen wir darüber reden?"</string>
+
+    <string name="neuer_string">ich bin neu</string>
+    <string name="joke_edit_hint">schreibe hier deinen Witz</string>
+    <string name="save_button_text">save</string>
+
+</resources>

@@ -1,0 +1,47 @@
+{
+  "project_info": {
+    "project_number": "23040735650",
+    "project_id": "mylogintest-617ab",
+    "storage_bucket": "mylogintest-617ab.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:23040735650:android:02e00e379043b57ffe9afb",
+        "android_client_info": {
+          "package_name": "de.syntaxinstitut.firebaselogin"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "23040735650-fr3uunqgu1eian7tfratsae2462bllnv.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "de.syntaxinstitut.firebaselogin",
+            "certificate_hash": "1cd177884e27be1d8d1b4ac7a25a77aad22ea99d"
+          }
+        },
+        {
+          "client_id": "23040735650-s5ik210vq3r1rikkhme76h0ga63qnp8r.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDURksDrXtxVQyzr0mNNNn9FXB3jl_2kJ8"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "23040735650-s5ik210vq3r1rikkhme76h0ga63qnp8r.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

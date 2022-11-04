@@ -1,0 +1,165 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity">
+
+    <ImageView
+        android:id="@+id/background"
+        android:layout_width="wrap_content"
+        android:layout_height="0dp"
+        android:adjustViewBounds="true"
+        android:scaleType="centerCrop"
+        app:layout_constraintBottom_toTopOf="@id/glZutaten"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.0"
+        app:srcCompat="@drawable/hintergrund"
+        tools:ignore="ContentDescription" />
+
+    <ImageView
+        android:id="@+id/ivPizza"
+        android:layout_width="300dp"
+        android:layout_height="300dp"
+        android:layout_marginStart="8dp"
+        android:adjustViewBounds="true"
+        android:contentDescription="@string/pizza_image"
+        app:layout_constraintBottom_toBottomOf="@+id/background"
+        app:layout_constraintStart_toStartOf="@+id/background"
+        app:layout_constraintTop_toBottomOf="@+id/btnRossaHawaii"
+        app:srcCompat="@drawable/holz" />
+
+    <Button
+        android:id="@+id/btnPizza"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:backgroundTint="@color/dough"
+        android:text="@string/pizza"
+        android:textColor="@color/SI_Grey"
+        app:layout_constraintEnd_toStartOf="@+id/background"
+        app:layout_constraintHorizontal_bias="0.5"
+        app:layout_constraintStart_toEndOf="@+id/background"
+        app:layout_constraintTop_toTopOf="parent"
+        tools:ignore="TextContrastCheck" />
+
+    <Button
+        android:id="@+id/btnRossa"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:backgroundTint="@color/rossa"
+        android:text="@string/rossa"
+        android:textColor="@color/SI_Grey"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toEndOf="@id/btnBianca"
+        app:layout_constraintTop_toBottomOf="@+id/btnPizza"
+        tools:ignore="TextContrastCheck" />
+
+    <Button
+        android:id="@+id/btnBianca"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:backgroundTint="@color/bianca"
+        android:text="@string/bianca"
+        android:textColor="@color/black"
+        app:layout_constraintEnd_toStartOf="@+id/btnRossa"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/btnPizza" />
+
+    <Button
+        android:id="@+id/btnBiancaRucola"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="8dp"
+        android:backgroundTint="@color/biancaChild"
+        android:text="@string/rucola"
+        android:textColor="@color/black"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/btnBiancaKaese" />
+
+    <Button
+        android:id="@+id/btnBiancaKaese"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="8dp"
+        android:backgroundTint="@color/biancaChild"
+        android:text="@string/kaese"
+        android:textColor="@color/black"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/btnBianca" />
+
+    <Button
+        android:id="@+id/btnRossaSalami"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginEnd="8dp"
+        android:backgroundTint="@color/rossaChild"
+        android:text="@string/salami"
+        android:textColor="@color/SI_Grey"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/btnRossa" />
+
+    <Button
+        android:id="@+id/btnRossaHawaii"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginEnd="8dp"
+        android:backgroundTint="@color/rossaChild"
+        android:text="@string/hawaii"
+        android:textColor="@color/SI_Grey"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/btnRossaSalami" />
+
+    <GridLayout
+        android:id="@+id/glZutaten"
+        android:layout_width="match_parent"
+        android:layout_height="100dp"
+        android:background="@color/backgroundD3"
+        android:padding="8dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toStartOf="@+id/background"
+        app:layout_constraintHorizontal_bias="0.5"
+        app:layout_constraintStart_toEndOf="@+id/background">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_row="0"
+            android:layout_column="0"
+            android:text="@string/ingredients"
+            android:textColor="@color/SI_Grey"
+            android:textStyle="bold" />
+
+        <TextView
+            android:id="@+id/tvZutaten1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_row="1"
+            android:layout_column="1"
+            android:text=""
+            android:textColor="@color/SI_Grey"
+            android:textStyle="bold" />
+        <TextView
+            android:id="@+id/tvZutaten2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_row="2"
+            android:layout_column="1"
+            android:text=""
+            android:textColor="@color/SI_Grey"
+            android:textStyle="bold" />
+        <TextView
+            android:id="@+id/tvZutaten3"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_row="3"
+            android:layout_column="1"
+            android:text=""
+            android:textColor="@color/SI_Grey"
+            android:textStyle="bold" />
+    </GridLayout>
+
+</androidx.constraintlayout.widget.ConstraintLayout>

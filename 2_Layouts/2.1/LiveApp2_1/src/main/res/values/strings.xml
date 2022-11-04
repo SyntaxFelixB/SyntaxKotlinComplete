@@ -1,0 +1,10 @@
+<resources>
+    <string name="app_name">2.1 - LiveApp</string>
+    <string name="first_name">Vorname</string>
+    <string name="last_name">Nachname</string>
+    <string name="politness">Höflichkeit</string>
+    <string name="generate">generate</string>
+
+    <string name="greeting_polite">Guten Tag %1$s %2$s! \nSchön dass Sie uns besuchen.</string>
+    <string name="greeting">Hallo %1$s! \nGib bescheid wenn du was brauchst ;)</string>
+</resources>

@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layer-list xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <item android:drawable="@drawable/teig"/>
+    <item android:drawable="@drawable/ricotta"/>
+    <item android:drawable="@drawable/kaese"/>
+    <item android:drawable="@drawable/rucola"/>
+</layer-list>

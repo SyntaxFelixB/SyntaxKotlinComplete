@@ -1,0 +1,9 @@
+<resources>
+    <string name="app_name">Room</string>
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="other_button_text">go to other</string>
+    <string name="back_button_text">back</string>
+    <string name="new_fact_text">new fact</string>
+    <string name="clear_text">clear data</string>
+    <string name="database_cleared">cleared database</string>
+</resources>

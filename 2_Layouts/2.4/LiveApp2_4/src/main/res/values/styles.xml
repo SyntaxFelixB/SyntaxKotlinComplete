@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <style name="CustomGreetingStyle" parent="android:Widget.TextView">
+        <item name="android:fontFamily">@font/butterfly_kids</item>
+        <item name="android:textSize">30sp</item>
+    </style>
+
+    <style name="HeaderOneStyle">
+        <item name="android:fontFamily">@font/joti_one</item>
+        <item name="android:textSize">35sp</item>
+    </style>
+
+
+    <style name="HeaderOneStyleCool" parent="HeaderOneStyle">
+        <item name="android:textColor">@color/coolBlue</item>
+    </style>
+</resources>

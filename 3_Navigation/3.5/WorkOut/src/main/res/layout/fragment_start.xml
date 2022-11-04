@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools">
+
+    <data>
+
+    </data>
+
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <ImageView
+            android:id="@+id/start_background"
+            android:layout_width="0dp"
+            android:layout_height="0dp"
+            android:adjustViewBounds="true"
+            android:scaleType="centerCrop"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            app:srcCompat="@drawable/__minute_workout" />
+
+        <Button
+            android:id="@+id/start_amateur_button"
+            android:layout_width="0dp"
+            android:layout_height="60dp"
+            android:layout_marginTop="232dp"
+            android:alpha="0.8"
+            android:backgroundTint="#81756B"
+            android:text="Anfänger"
+            app:layout_constraintEnd_toEndOf="@+id/start_advanced_button"
+            app:layout_constraintHorizontal_bias="0.0"
+            app:layout_constraintStart_toStartOf="@+id/start_advanced_button"
+            app:layout_constraintTop_toTopOf="@+id/start_background" />
+
+        <Button
+            android:id="@+id/start_advanced_button"
+            android:layout_width="wrap_content"
+            android:layout_height="60dp"
+            android:layout_marginTop="16dp"
+            android:alpha="0.8"
+            android:backgroundTint="#816D67"
+            android:text="Forgeschritten"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/start_amateur_button" />
+
+        <Button
+            android:id="@+id/start_pro_button"
+            android:layout_width="0dp"
+            android:layout_height="60dp"
+            android:layout_marginTop="16dp"
+            android:alpha="0.8"
+            android:backgroundTint="#6A584D"
+            android:text="Profi"
+            app:layout_constraintEnd_toEndOf="@+id/start_advanced_button"
+            app:layout_constraintStart_toStartOf="@+id/start_advanced_button"
+            app:layout_constraintTop_toBottomOf="@+id/start_advanced_button" />
+    </androidx.constraintlayout.widget.ConstraintLayout>
+</layout>

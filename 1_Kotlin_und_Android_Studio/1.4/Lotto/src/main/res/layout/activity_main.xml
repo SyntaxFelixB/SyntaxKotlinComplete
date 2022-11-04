@@ -1,0 +1,671 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools">
+
+    <data>
+
+    </data>
+
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        tools:context=".MainActivity">
+
+        <androidx.appcompat.widget.Toolbar
+            android:id="@+id/toolbar"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="?attr/colorPrimary"
+            android:minHeight="?attr/actionBarSize"
+            android:theme="?attr/actionBarTheme"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent">
+
+            <TextView
+                android:id="@+id/textView"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:text="@string/app_name"
+                android:textColor="?attr/colorOnPrimary"
+                android:textSize="24sp"
+                android:textStyle="bold" />
+
+        </androidx.appcompat.widget.Toolbar>
+
+        <ImageView
+            android:id="@+id/ivLottoMaschine"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:adjustViewBounds="true"
+            android:paddingHorizontal="36dp"
+            android:paddingVertical="16dp"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.5"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/toolbar"
+            app:srcCompat="@drawable/lottomaschine"
+            tools:ignore="ContentDescription" />
+
+        <ImageView
+            android:id="@+id/geldregen"
+            android:layout_width="0dp"
+            android:layout_height="0dp"
+            android:adjustViewBounds="true"
+            android:scaleType="centerCrop"
+            android:src="@drawable/geldregen"
+            android:visibility="invisible"
+            app:layout_constraintBottom_toBottomOf="@+id/ball1"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.5"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/toolbar" />
+
+        <TextView
+            android:id="@+id/ball1"
+            android:layout_width="48dp"
+            android:layout_height="48dp"
+            android:layout_marginStart="36dp"
+            android:background="@drawable/ball"
+            android:backgroundTint="@color/ball_color5"
+            android:backgroundTintMode="multiply"
+            android:gravity="center"
+            android:text=""
+            android:textColor="@color/white"
+            android:textSize="32sp"
+            android:textStyle="bold"
+            android:visibility="invisible"
+            app:layout_constraintEnd_toStartOf="@+id/ball2"
+            app:layout_constraintHorizontal_bias="0.5"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/ivLottoMaschine" />
+
+        <TextView
+            android:id="@+id/ball2"
+            android:layout_width="48dp"
+            android:layout_height="48dp"
+            android:layout_marginStart="7dp"
+            android:background="@drawable/ball"
+            android:backgroundTint="@color/ball_color3"
+            android:backgroundTintMode="multiply"
+            android:gravity="center"
+            android:text=""
+            android:textColor="@color/white"
+            android:textSize="32sp"
+            android:textStyle="bold"
+            android:visibility="invisible"
+            app:layout_constraintEnd_toStartOf="@+id/ball3"
+            app:layout_constraintHorizontal_bias="0.5"
+            app:layout_constraintStart_toEndOf="@+id/ball1"
+            app:layout_constraintTop_toBottomOf="@+id/ivLottoMaschine" />
+
+        <TextView
+            android:id="@+id/ball3"
+            android:layout_width="48dp"
+            android:layout_height="48dp"
+            android:layout_marginStart="7dp"
+            android:background="@drawable/ball"
+            android:backgroundTint="@color/ball_color3"
+            android:backgroundTintMode="multiply"
+            android:gravity="center"
+            android:text=""
+            android:textColor="@color/white"
+            android:textSize="32sp"
+            android:textStyle="bold"
+            android:visibility="invisible"
+            app:layout_constraintEnd_toStartOf="@+id/ball4"
+            app:layout_constraintHorizontal_bias="0.5"
+            app:layout_constraintStart_toEndOf="@+id/ball2"
+            app:layout_constraintTop_toBottomOf="@+id/ivLottoMaschine" />
+
+        <TextView
+            android:id="@+id/ball4"
+            android:layout_width="48dp"
+            android:layout_height="48dp"
+            android:layout_marginStart="8dp"
+            android:background="@drawable/ball"
+            android:backgroundTint="@color/ball_color3"
+            android:backgroundTintMode="multiply"
+            android:gravity="center"
+            android:text=""
+            android:textColor="@color/white"
+            android:textSize="32sp"
+            android:textStyle="bold"
+            android:visibility="invisible"
+            app:layout_constraintEnd_toStartOf="@+id/ball5"
+            app:layout_constraintHorizontal_bias="0.5"
+            app:layout_constraintStart_toEndOf="@+id/ball3"
+            app:layout_constraintTop_toBottomOf="@+id/ivLottoMaschine" />
+
+        <TextView
+            android:id="@+id/ball5"
+            android:layout_width="48dp"
+            android:layout_height="48dp"
+            android:layout_marginStart="7dp"
+            android:background="@drawable/ball"
+            android:backgroundTint="@color/ball_color3"
+            android:backgroundTintMode="multiply"
+            android:gravity="center"
+            android:text=""
+            android:textColor="@color/white"
+            android:textSize="32sp"
+            android:textStyle="bold"
+            android:visibility="invisible"
+            app:layout_constraintEnd_toStartOf="@+id/ball6"
+            app:layout_constraintHorizontal_bias="0.5"
+            app:layout_constraintStart_toEndOf="@+id/ball4"
+            app:layout_constraintTop_toBottomOf="@+id/ivLottoMaschine" />
+
+        <TextView
+            android:id="@+id/ball6"
+            android:layout_width="48dp"
+            android:layout_height="48dp"
+            android:layout_marginStart="8dp"
+            android:layout_marginEnd="36dp"
+            android:background="@drawable/ball"
+            android:backgroundTint="@color/ball_color3"
+            android:backgroundTintMode="multiply"
+            android:gravity="center"
+            android:text=""
+            android:textColor="@color/white"
+            android:textSize="32sp"
+            android:textStyle="bold"
+            android:visibility="invisible"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.5"
+            app:layout_constraintStart_toEndOf="@+id/ball5"
+            app:layout_constraintTop_toBottomOf="@+id/ivLottoMaschine" />
+
+        <Button
+            android:id="@+id/btnDraw"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:backgroundTint="@color/SI_Yellow"
+            android:text="@string/draw"
+            android:textColor="@color/black"
+            android:textSize="16sp"
+            app:layout_constraintBottom_toBottomOf="@+id/ivLottoMaschine"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="@+id/ivLottoMaschine" />
+
+        <TextView
+            android:id="@+id/tvSpielschein"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textColor="?attr/colorSecondary"
+            android:textStyle="bold"
+            android:layout_marginStart="8dp"
+            android:text="@string/ticket"
+            android:textSize="18sp"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@id/ball1"
+            />
+
+        <TextView
+            android:id="@+id/tvEnd"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text=""
+            android:textColor="?attr/colorSecondaryVariant"
+            android:textStyle="bold"
+            android:textSize="18sp"
+            app:layout_constraintStart_toEndOf="@id/tvSpielschein"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintTop_toBottomOf="@id/ball1"/>
+
+        <androidx.constraintlayout.widget.ConstraintLayout
+            android:id="@+id/constraintLayout"
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/tvSpielschein">
+
+
+            <TableLayout
+                android:id="@+id/tipp1"
+                style="@style/tableStyle"
+                app:layout_constraintBottom_toTopOf="@id/tipp4"
+                app:layout_constraintEnd_toStartOf="@+id/tipp2"
+                app:layout_constraintStart_toStartOf="@+id/constraintLayout"
+                app:layout_constraintTop_toTopOf="@+id/constraintLayout"
+                tools:ignore="HardcodedText">
+
+                <TableRow
+                    android:layout_width="match_parent"
+                    android:layout_height="0dp"
+                    android:layout_weight="1">
+
+                    <Button
+                        android:id="@+id/tipp1_1"
+                        style="@style/tableButton"
+                        android:text="1" />
+
+                    <Button
+                        android:id="@+id/tipp1_2"
+                        style="@style/tableButton"
+                        android:text="2" />
+
+                    <Button
+                        android:id="@+id/tipp1_3"
+                        style="@style/tableButton"
+                        android:text="3" />
+                </TableRow>
+
+                <TableRow
+                    android:layout_width="match_parent"
+                    android:layout_height="0dp"
+                    android:layout_weight="1">
+
+                    <Button
+                        android:id="@+id/tipp1_4"
+                        style="@style/tableButton"
+                        android:text="4" />
+
+                    <Button
+                        android:id="@+id/tipp1_5"
+                        style="@style/tableButton"
+                        android:text="5" />
+
+                    <Button
+                        android:id="@+id/tipp1_6"
+                        style="@style/tableButton"
+                        android:text="6" />
+                </TableRow>
+
+                <TableRow
+                    android:layout_width="match_parent"
+                    android:layout_height="0dp"
+                    android:layout_weight="1">
+
+                    <Button
+                        android:id="@+id/tipp1_7"
+                        style="@style/tableButton"
+                        android:text="7" />
+
+                    <Button
+                        android:id="@+id/tipp1_8"
+                        style="@style/tableButton"
+                        android:text="8" />
+
+                    <Button
+                        android:id="@+id/tipp1_9"
+                        style="@style/tableButton"
+                        android:text="9" />
+                </TableRow>
+            </TableLayout>
+
+            <TableLayout
+                android:id="@+id/tipp2"
+                style="@style/tableStyle"
+                app:layout_constraintBottom_toTopOf="@id/tipp5"
+                app:layout_constraintEnd_toStartOf="@+id/tipp3"
+                app:layout_constraintStart_toEndOf="@+id/tipp1"
+                app:layout_constraintTop_toTopOf="@+id/constraintLayout"
+                tools:ignore="HardcodedText">
+
+                <TableRow
+                    android:layout_width="match_parent"
+                    android:layout_height="0dp"
+                    android:layout_weight="1">
+
+                    <Button
+                        android:id="@+id/tipp2_1"
+                        style="@style/tableButton"
+                        android:text="1" />
+
+                    <Button
+                        android:id="@+id/tipp2_2"
+                        style="@style/tableButton"
+                        android:text="2" />
+
+                    <Button
+                        android:id="@+id/tipp2_3"
+                        style="@style/tableButton"
+                        android:text="3" />
+                </TableRow>
+
+                <TableRow
+                    android:layout_width="match_parent"
+                    android:layout_height="0dp"
+                    android:layout_weight="1">
+
+                    <Button
+                        android:id="@+id/tipp2_4"
+                        style="@style/tableButton"
+                        android:text="4" />
+
+                    <Button
+                        android:id="@+id/tipp2_5"
+                        style="@style/tableButton"
+                        android:text="5" />
+
+                    <Button
+                        android:id="@+id/tipp2_6"
+                        style="@style/tableButton"
+                        android:text="6" />
+                </TableRow>
+
+                <TableRow
+                    android:layout_width="match_parent"
+                    android:layout_height="0dp"
+                    android:layout_weight="1">
+
+                    <Button
+                        android:id="@+id/tipp2_7"
+                        style="@style/tableButton"
+                        android:text="7" />
+
+                    <Button
+                        android:id="@+id/tipp2_8"
+                        style="@style/tableButton"
+                        android:text="8" />
+
+                    <Button
+                        android:id="@+id/tipp2_9"
+                        style="@style/tableButton"
+
+                        android:text="9" />
+                </TableRow>
+            </TableLayout>
+
+            <TableLayout
+                android:id="@+id/tipp3"
+                style="@style/tableStyle"
+                app:layout_constraintBottom_toTopOf="@id/tipp6"
+                app:layout_constraintEnd_toEndOf="@+id/constraintLayout"
+                app:layout_constraintStart_toEndOf="@+id/tipp2"
+                app:layout_constraintTop_toTopOf="@+id/constraintLayout"
+                tools:ignore="HardcodedText">
+
+                <TableRow
+                    android:layout_width="match_parent"
+                    android:layout_height="0dp"
+                    android:layout_weight="1">
+
+                    <Button
+                        android:id="@+id/tipp3_1"
+                        style="@style/tableButton"
+                        android:text="1" />
+
+                    <Button
+                        android:id="@+id/tipp3_2"
+                        style="@style/tableButton"
+                        android:text="2" />
+
+                    <Button
+                        android:id="@+id/tipp3_3"
+                        style="@style/tableButton"
+                        android:text="3" />
+                </TableRow>
+
+                <TableRow
+                    android:layout_width="match_parent"
+                    android:layout_height="0dp"
+                    android:layout_weight="1">
+
+                    <Button
+                        android:id="@+id/tipp3_4"
+                        style="@style/tableButton"
+                        android:text="4" />
+
+                    <Button
+                        android:id="@+id/tipp3_5"
+                        style="@style/tableButton"
+                        android:text="5" />
+
+                    <Button
+                        android:id="@+id/tipp3_6"
+                        style="@style/tableButton"
+                        android:text="6" />
+                </TableRow>
+
+                <TableRow
+                    android:layout_width="match_parent"
+                    android:layout_height="0dp"
+                    android:layout_weight="1">
+
+                    <Button
+                        android:id="@+id/tipp3_7"
+                        style="@style/tableButton"
+                        android:text="7" />
+
+                    <Button
+                        android:id="@+id/tipp3_8"
+                        style="@style/tableButton"
+                        android:text="8" />
+
+                    <Button
+                        android:id="@+id/tipp3_9"
+                        style="@style/tableButton"
+                        android:text="9" />
+                </TableRow>
+            </TableLayout>
+
+            <TableLayout
+                android:id="@+id/tipp4"
+                style="@style/tableStyle"
+                app:layout_constraintBottom_toBottomOf="@id/constraintLayout"
+                app:layout_constraintEnd_toStartOf="@+id/tipp5"
+                app:layout_constraintStart_toStartOf="@id/constraintLayout"
+                app:layout_constraintTop_toBottomOf="@+id/tipp1"
+                tools:ignore="HardcodedText">
+
+                <TableRow
+                    android:layout_width="match_parent"
+                    android:layout_height="0dp"
+                    android:layout_weight="1">
+
+                    <Button
+                        android:id="@+id/tipp4_1"
+                        style="@style/tableButton"
+                        android:text="1" />
+
+                    <Button
+                        android:id="@+id/tipp4_2"
+                        style="@style/tableButton"
+                        android:text="2" />
+
+                    <Button
+                        android:id="@+id/tipp4_3"
+                        style="@style/tableButton"
+                        android:text="3" />
+                </TableRow>
+
+                <TableRow
+                    android:layout_width="match_parent"
+                    android:layout_height="0dp"
+                    android:layout_weight="1">
+
+                    <Button
+                        android:id="@+id/tipp4_4"
+                        style="@style/tableButton"
+                        android:text="4" />
+
+                    <Button
+                        android:id="@+id/tipp4_5"
+                        style="@style/tableButton"
+                        android:text="5" />
+
+                    <Button
+                        android:id="@+id/tipp4_6"
+                        style="@style/tableButton"
+                        android:text="6" />
+                </TableRow>
+
+                <TableRow
+                    android:layout_width="match_parent"
+                    android:layout_height="0dp"
+                    android:layout_weight="1">
+
+                    <Button
+                        android:id="@+id/tipp4_7"
+                        style="@style/tableButton"
+                        android:text="7" />
+
+                    <Button
+                        android:id="@+id/tipp4_8"
+                        style="@style/tableButton"
+                        android:text="8" />
+
+                    <Button
+                        android:id="@+id/tipp4_9"
+                        style="@style/tableButton"
+                        android:text="9" />
+                </TableRow>
+            </TableLayout>
+
+            <TableLayout
+                android:id="@+id/tipp5"
+                style="@style/tableStyle"
+                app:layout_constraintBottom_toBottomOf="@+id/constraintLayout"
+                app:layout_constraintEnd_toStartOf="@+id/tipp6"
+                app:layout_constraintStart_toEndOf="@+id/tipp4"
+                app:layout_constraintTop_toBottomOf="@+id/tipp2"
+                tools:ignore="HardcodedText">
+
+                <TableRow
+                    android:layout_width="match_parent"
+                    android:layout_height="0dp"
+                    android:layout_weight="1">
+
+                    <Button
+                        android:id="@+id/tipp5_1"
+                        style="@style/tableButton"
+                        android:text="1" />
+
+                    <Button
+                        android:id="@+id/tipp5_2"
+                        style="@style/tableButton"
+                        android:text="2" />
+
+                    <Button
+                        android:id="@+id/tipp5_3"
+                        style="@style/tableButton"
+                        android:text="3" />
+                </TableRow>
+
+                <TableRow
+                    android:layout_width="match_parent"
+                    android:layout_height="0dp"
+                    android:layout_weight="1">
+
+                    <Button
+                        android:id="@+id/tipp5_4"
+                        style="@style/tableButton"
+                        android:text="4" />
+
+                    <Button
+                        android:id="@+id/tipp5_5"
+                        style="@style/tableButton"
+                        android:text="5" />
+
+                    <Button
+                        android:id="@+id/tipp5_6"
+                        style="@style/tableButton"
+                        android:text="6" />
+                </TableRow>
+
+                <TableRow
+                    android:layout_width="match_parent"
+                    android:layout_height="0dp"
+                    android:layout_weight="1">
+
+                    <Button
+                        android:id="@+id/tipp5_7"
+                        style="@style/tableButton"
+                        android:text="7" />
+
+                    <Button
+                        android:id="@+id/tipp5_8"
+                        style="@style/tableButton"
+                        android:text="8" />
+
+                    <Button
+                        android:id="@+id/tipp5_9"
+                        style="@style/tableButton"
+
+                        android:text="9" />
+                </TableRow>
+            </TableLayout>
+
+            <TableLayout
+                android:id="@+id/tipp6"
+                style="@style/tableStyle"
+                app:layout_constraintBottom_toBottomOf="@id/constraintLayout"
+                app:layout_constraintEnd_toEndOf="@+id/constraintLayout"
+                app:layout_constraintStart_toEndOf="@+id/tipp5"
+                app:layout_constraintTop_toBottomOf="@+id/tipp3"
+                tools:ignore="HardcodedText">
+
+                <TableRow
+                    android:layout_width="match_parent"
+                    android:layout_height="0dp"
+                    android:layout_weight="1">
+
+                    <Button
+                        android:id="@+id/tipp6_1"
+                        style="@style/tableButton"
+                        android:text="1" />
+
+                    <Button
+                        android:id="@+id/tipp6_2"
+                        style="@style/tableButton"
+                        android:text="2" />
+
+                    <Button
+                        android:id="@+id/tipp6_3"
+                        style="@style/tableButton"
+                        android:text="3" />
+                </TableRow>
+
+                <TableRow
+                    android:layout_width="match_parent"
+                    android:layout_height="0dp"
+                    android:layout_weight="1">
+
+                    <Button
+                        android:id="@+id/tipp6_4"
+                        style="@style/tableButton"
+                        android:text="4" />
+
+                    <Button
+                        android:id="@+id/tipp6_5"
+                        style="@style/tableButton"
+                        android:text="5" />
+
+                    <Button
+                        android:id="@+id/tipp6_6"
+                        style="@style/tableButton"
+                        android:text="6" />
+                </TableRow>
+
+                <TableRow
+                    android:layout_width="match_parent"
+                    android:layout_height="0dp"
+                    android:layout_weight="1">
+
+                    <Button
+                        android:id="@+id/tipp6_7"
+                        style="@style/tableButton"
+                        android:text="7" />
+
+                    <Button
+                        android:id="@+id/tipp6_8"
+                        style="@style/tableButton"
+                        android:text="8" />
+
+                    <Button
+                        android:id="@+id/tipp6_9"
+                        style="@style/tableButton"
+                        android:text="9" />
+                </TableRow>
+            </TableLayout>
+
+        </androidx.constraintlayout.widget.ConstraintLayout>
+    </androidx.constraintlayout.widget.ConstraintLayout>
+</layout>

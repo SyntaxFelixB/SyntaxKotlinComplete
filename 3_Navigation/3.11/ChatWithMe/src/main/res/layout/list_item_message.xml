@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools">
+
+    <data>
+
+        <variable
+            name="viewModel"
+            type="de.syntax_institut.chatwithme.ui.SharedViewModel" />
+    </data>
+
+    <FrameLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <com.google.android.material.card.MaterialCardView
+            android:id="@+id/cvMessage"
+            android:clickable="true"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="end"
+            android:layout_marginVertical="8dp"
+            android:layout_marginStart="64dp"
+            android:layout_marginEnd="8dp"
+            app:cardBackgroundColor="?attr/colorSecondary"
+            app:cardCornerRadius="5dp"
+            app:cardElevation="5dp"
+            app:contentPadding="8dp"
+            android:focusable="true">
+
+            <TextView
+                android:id="@+id/tvMessageText"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                tools:text="Hello World"
+                android:textSize="16sp"
+                android:textColor="?attr/colorOnSecondary" />
+        </com.google.android.material.card.MaterialCardView>
+    </FrameLayout>
+</layout>

@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">2.1 - LiveApp</string>
+    <string name="first_name">nome</string>
+    <string name="last_name">secondo nome</string>
+    <string name="politness">cortesia</string>
+    <string name="generate">generate</string>
+
+    <string name="greeting_polite">Bon Giorno %1$s %2$s! \nChe bello che sei qua.</string>
+    <string name="greeting">Ciao %1$s! \nDime ;)</string>
+
+</resources>

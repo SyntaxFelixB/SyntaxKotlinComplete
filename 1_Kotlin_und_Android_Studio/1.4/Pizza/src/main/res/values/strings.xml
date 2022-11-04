@@ -1,0 +1,13 @@
+<resources>
+    <string name="app_name">Pizza</string>
+    <string name="pizza_image">pizza</string>
+    <string name="hawaii">Hawaii</string>
+    <string name="salami">Salami</string>
+    <string name="margherita">Margherita</string>
+    <string name="kaese">Käse</string>
+    <string name="rucola">Rucola</string>
+    <string name="bianca">BIANCA</string>
+    <string name="rossa">ROSSA</string>
+    <string name="pizza">Pizza</string>
+    <string name="ingredients">Zutatenliste:</string>
+</resources>

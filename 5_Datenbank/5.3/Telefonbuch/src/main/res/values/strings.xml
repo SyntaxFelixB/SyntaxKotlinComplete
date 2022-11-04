@@ -1,0 +1,15 @@
+<resources>
+    <string name="app_name">Telefonbuch</string>
+    <string name="add">Hinzufügen</string>
+    <string name="phoneNumber">Telefonnummer</string>
+    <string name="name">Name</string>
+    <string name="contactPicture">Kontakt Bild</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="cancel">Abbrechen</string>
+    <string name="save">Speichern</string>
+    <string name="delete">Löschen</string>
+    <string name="contacts">Telefonbuch</string>
+    <string name="edit_contact">Kontakt bearbeiten</string>
+    <string name="add_contact">Kontakt hinzufügen</string>
+</resources>

@@ -1,0 +1,4 @@
+<resources>
+    <string name="app_name">ChatWithMe</string>
+    <string name="message">Nachricht</string>
+</resources>

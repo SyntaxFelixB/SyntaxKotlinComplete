@@ -1,0 +1,206 @@
+pluginManagement {
+    repositories {
+        gradlePluginPortal()
+        google()
+        mavenCentral()
+    }
+}
+dependencyResolutionManagement {
+    repositoriesMode.set(RepositoriesMode.FAIL_ON_PROJECT_REPOS)
+    repositories {
+        google()
+        mavenCentral()
+    }
+}
+rootProject.name = "SyntaxComplete"
+
+////////////////////////////////////////////////////////////////////////////////////////////////////
+//////////////////////////////////      1_Kotlin       /////////////////////////////////////////////
+////////////////////////////////////////////////////////////////////////////////////////////////////
+include ':SocialMediaProfil'
+project(':SocialMediaProfil').projectDir = new File(rootDir, '1_Kotlin_und_Android_Studio/1.1/SocialMediaProfil/')
+
+include ':Datentypen_Sonnensystem'
+project(':Datentypen_Sonnensystem').projectDir = new File(rootDir, '1_Kotlin_und_Android_Studio/1.2/Datentypen_Sonnensystem/')
+include ':FilmeStreamingService'
+project(':FilmeStreamingService').projectDir = new File(rootDir, '1_Kotlin_und_Android_Studio/1.2/FilmeStreamingService/')
+include ':LiveApp1_2'
+project(':LiveApp1_2').projectDir = new File(rootDir, '1_Kotlin_und_Android_Studio/1.2/LiveApp1_2/')
+include ':FindeDenFehler'
+project(':FindeDenFehler').projectDir = new File(rootDir, '1_Kotlin_und_Android_Studio/1.2/FindeDenFehler/')
+
+include ':FlaschenDrehen'
+project(':FlaschenDrehen').projectDir = new File(rootDir, '1_Kotlin_und_Android_Studio/1.3/FlaschenDrehen/')
+include ':Memory'
+project(':Memory').projectDir = new File(rootDir, '1_Kotlin_und_Android_Studio/1.3/Memory/')
+include ':LiveApp1_3'
+project(':LiveApp1_3').projectDir = new File(rootDir, '1_Kotlin_und_Android_Studio/1.3/LiveApp1_3/')
+include ':LiveApp1_3b'
+project(':LiveApp1_3b').projectDir = new File(rootDir, '1_Kotlin_und_Android_Studio/1.3/LiveApp1_3b/')
+
+include ':Cars'
+project(':Cars').projectDir = new File(rootDir, '1_Kotlin_und_Android_Studio/1.4/Cars/')
+include ':LiveApp1_4'
+project(':LiveApp1_4').projectDir = new File(rootDir, '1_Kotlin_und_Android_Studio/1.4/LiveApp1_4/')
+include ':Lotto'
+project(':Lotto').projectDir = new File(rootDir, '1_Kotlin_und_Android_Studio/1.4/Lotto/')
+include ':Pizza'
+project(':Pizza').projectDir = new File(rootDir, '1_Kotlin_und_Android_Studio/1.4/Pizza/')
+
+include ':LiveApp1_5'
+project(':LiveApp1_5').projectDir = new File(rootDir, '1_Kotlin_und_Android_Studio/1.5/LiveApp1_5/')
+
+////////////////////////////////////////////////////////////////////////////////////////////////////
+//////////////////////////////////      2_Layouts      /////////////////////////////////////////////
+////////////////////////////////////////////////////////////////////////////////////////////////////
+include ':LiveApp2_1'
+project(':LiveApp2_1').projectDir = new File(rootDir, '2_Layouts/2.1/LiveApp2_1/')
+include ':MusikBox2_1'
+project(':MusikBox2_1').projectDir = new File(rootDir, '2_Layouts/2.1/MusikBox2_1/')
+
+include ':LiveApp2_2'
+project(':LiveApp2_2').projectDir = new File(rootDir, '2_Layouts/2.2/LiveApp2_2/')
+include ':Speisekarte'
+project(':Speisekarte').projectDir = new File(rootDir, '2_Layouts/2.2/Speisekarte/')
+
+include ':LiveApp2_3'
+project(':LiveApp2_3').projectDir = new File(rootDir, '2_Layouts/2.3/LiveApp2_3/')
+
+include ':LiveApp2_4'
+project(':LiveApp2_4').projectDir = new File(rootDir, '2_Layouts/2.4/LiveApp2_4/')
+
+include ':LiveApp2_5'
+project(':LiveApp2_5').projectDir = new File(rootDir, '2_Layouts/2.5/LiveApp2_5/')
+include ':LiveApp2_5b'
+project(':LiveApp2_5b').projectDir = new File(rootDir, '2_Layouts/2.5/LiveApp2_5b/')
+include ':LiveApp2_5c'
+project(':LiveApp2_5c').projectDir = new File(rootDir, '2_Layouts/2.5/LiveApp2_5c/')
+
+include ':LiveApp2_6'
+project(':LiveApp2_6').projectDir = new File(rootDir, '2_Layouts/2.6/LiveApp2_6/')
+include ':FilmeStreamingService2_6'
+project(':FilmeStreamingService2_6').projectDir = new File(rootDir, '2_Layouts/2.6/FilmeStreamingService2_6/')
+
+include ':LiveApp2_7'
+project(':LiveApp2_7').projectDir = new File(rootDir, '2_Layouts/2.7/LiveApp2_7/')
+include ':FilmeStreamingService2_7'
+project(':FilmeStreamingService2_7').projectDir = new File(rootDir, '2_Layouts/2.7/FilmeStreamingService2_7/')
+include ':FindeDenFehler2_7'
+project(':FindeDenFehler2_7').projectDir = new File(rootDir, '2_Layouts/2.7/FindeDenFehler2_7/')
+
+include ':LiveApp2_8'
+project(':LiveApp2_8').projectDir = new File(rootDir, '2_Layouts/2.8/LiveApp2_8/')
+include ':LiveApp2_8b'
+project(':LiveApp2_8b').projectDir = new File(rootDir, '2_Layouts/2.8/LiveApp2_8b/')
+
+include ':LiveApp2_9'
+project(':LiveApp2_9').projectDir = new File(rootDir, '2_Layouts/2.9/LiveApp2_9/')
+include ':LiveApp2_9b'
+project(':LiveApp2_9b').projectDir = new File(rootDir, '2_Layouts/2.9/LiveApp2_9b/')
+
+////////////////////////////////////////////////////////////////////////////////////////////////////
+//////////////////////////////////    3_Navigation     /////////////////////////////////////////////
+////////////////////////////////////////////////////////////////////////////////////////////////////
+include ':LiveApp3_1'
+project(':LiveApp3_1').projectDir = new File(rootDir, '3_Navigation/3.1/LiveApp3_1/')
+include ':MusikApp3_1'
+project(':MusikApp3_1').projectDir = new File(rootDir, '3_Navigation/3.1/MusikApp3_1/')
+
+include ':LiveApp3_2'
+project(':LiveApp3_2').projectDir = new File(rootDir, '3_Navigation/3.2/LiveApp3_2/')
+
+include ':LiveApp3_3'
+project(':LiveApp3_3').projectDir = new File(rootDir, '3_Navigation/3.3/LiveApp3_3/')
+include ':FilmeStreamingService3_3'
+project(':FilmeStreamingService3_3').projectDir = new File(rootDir, '3_Navigation/3.3/FilmeStreamingService3_3/')
+
+include ':LiveApp3_4'
+project(':LiveApp3_4').projectDir = new File(rootDir, '3_Navigation/3.4/LiveApp3_4/')
+include ':LiveApp3_4b'
+project(':LiveApp3_4b').projectDir = new File(rootDir, '3_Navigation/3.4/LiveApp3_4b/')
+include ':LiveApp3_4c'
+project(':LiveApp3_4c').projectDir = new File(rootDir, '3_Navigation/3.4/LiveApp3_4c/')
+include ':Telefonbuch3_4'
+project(':Telefonbuch3_4').projectDir = new File(rootDir, '3_Navigation/3.4/Telefonbuch3_4/')
+
+include ':LiveApp3_5'
+project(':LiveApp3_5').projectDir = new File(rootDir, '3_Navigation/3.5/LiveApp3_5/')
+include ':WerWirdProgrammierer3_5'
+project(':WerWirdProgrammierer3_5').projectDir = new File(rootDir, '3_Navigation/3.5/WerWirdProgrammierer3_5/')
+include ':WorkOut'
+project(':WorkOut').projectDir = new File(rootDir, '3_Navigation/3.5/WorkOut/')
+
+include ':LiveApp3_6'
+project(':LiveApp3_6').projectDir = new File(rootDir, '3_Navigation/3.6/LiveApp3_6/')
+include ':WerWirdProgrammierer3_6'
+project(':WerWirdProgrammierer3_6').projectDir = new File(rootDir, '3_Navigation/3.6/WerWirdProgrammierer3_6/')
+
+include ':LiveApp3_7'
+project(':LiveApp3_7').projectDir = new File(rootDir, '3_Navigation/3.7/LiveApp3_7/')
+include ':WerWirdProgrammierer3_7'
+project(':WerWirdProgrammierer3_7').projectDir = new File(rootDir, '3_Navigation/3.7/WerWirdProgrammierer3_7/')
+
+include ':TravelService'
+project(':TravelService').projectDir = new File(rootDir, '3_Navigation/3.8/TravelService/')
+
+include ':RecyclerWiederholung'
+project(':RecyclerWiederholung').projectDir = new File(rootDir, '3_Navigation/3.9/RecyclerWiederholung/')
+
+include ':NewsMVVM'
+project(':NewsMVVM').projectDir = new File(rootDir, '3_Navigation/3.10/NewsMVVM/')
+
+include ':ChatWithMe'
+project(':ChatWithMe').projectDir = new File(rootDir, '3_Navigation/3.11/ChatWithMe/')
+
+////////////////////////////////////////////////////////////////////////////////////////////////////
+//////////////////////////////////    4_Internet       /////////////////////////////////////////////
+////////////////////////////////////////////////////////////////////////////////////////////////////
+include ':Counter'
+project(':Counter').projectDir = new File(rootDir, '4_Internet/4.1/Counter/')
+include ':LiveApp4_1'
+project(':LiveApp4_1').projectDir = new File(rootDir, '4_Internet/4.1/LiveApp4_1/')
+
+include ':LachDichKaputt'
+project(':LachDichKaputt').projectDir = new File(rootDir, '4_Internet/4.2/LachDichKaputt/')
+include ':LiveApp4_2'
+project(':LiveApp4_2').projectDir = new File(rootDir, '4_Internet/4.2/LiveApp4_2/')
+
+include ':MemeCreator4_3'
+project(':MemeCreator4_3').projectDir = new File(rootDir, '4_Internet/4.3/MemeCreator4_3/')
+include ':LiveApp4_3'
+project(':LiveApp4_3').projectDir = new File(rootDir, '4_Internet/4.3/LiveApp4_3/')
+
+include ':iTunesSuche'
+project(':iTunesSuche').projectDir = new File(rootDir, '4_Internet/4.4/iTunesSuche/')
+include ':LiveApp4_4'
+project(':LiveApp4_4').projectDir = new File(rootDir, '4_Internet/4.4/LiveApp4_4/')
+
+////////////////////////////////////////////////////////////////////////////////////////////////////
+//////////////////////////////////    5_Datenbank      /////////////////////////////////////////////
+////////////////////////////////////////////////////////////////////////////////////////////////////
+include ':SwimmingPool'
+project(':SwimmingPool').projectDir = new File(rootDir, '5_Datenbank/5.1/SwimmingPool/')
+
+include ':FerienWohnung'
+project(':FerienWohnung').projectDir = new File(rootDir, '5_Datenbank/5.2/FerienWohnung/')
+include ':LiveApp5_2'
+project(':LiveApp5_2').projectDir = new File(rootDir, '5_Datenbank/5.2/LiveApp5_2/')
+
+include ':Telefonbuch'
+project(':Telefonbuch').projectDir = new File(rootDir, '5_Datenbank/5.3/Telefonbuch/')
+include ':LiveApp5_3'
+project(':LiveApp5_3').projectDir = new File(rootDir, '5_Datenbank/5.3/LiveApp5_3/')
+
+include ':MemeCreator'
+project(':MemeCreator').projectDir = new File(rootDir, '5_Datenbank/5.4/MemeCreator/')
+include ':LiveApp5_4'
+project(':LiveApp5_4').projectDir = new File(rootDir, '5_Datenbank/5.4/LiveApp5_4/')
+
+////////////////////////////////////////////////////////////////////////////////////////////////////
+//////////////////////////////////    6_FireBase       /////////////////////////////////////////////
+////////////////////////////////////////////////////////////////////////////////////////////////////
+include ':FireBase_Login'
+project(':FireBase_Login').projectDir = new File(rootDir, '6_FireBase/FireBase_Login/')
+
+include ':FireStore'
+project(':FireStore').projectDir = new File(rootDir, '6_FireBase/FireStore/')

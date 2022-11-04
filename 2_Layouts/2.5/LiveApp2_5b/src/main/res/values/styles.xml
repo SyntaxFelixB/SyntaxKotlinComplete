@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <style name="MyCardViewStyle">
+        <item name="contentPadding">16dp</item>
+        <item name="cardBackgroundColor">@color/teal_200</item>
+        <item name="cardCornerRadius">60dp</item>
+    </style>
+
+</resources>

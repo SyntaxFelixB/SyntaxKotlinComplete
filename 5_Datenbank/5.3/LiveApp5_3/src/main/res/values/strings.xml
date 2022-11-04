@@ -1,0 +1,16 @@
+<resources>
+    <string name="app_name">Room</string>
+
+    <string name="guest_added">Guest was added!</string>
+
+    <string-array name="food_array">
+        <item>vegetarian</item>
+        <item>vegan</item>
+        <item>meat</item>
+        <item>fish</item>
+        <item>salat</item>
+        <item>just desert</item>
+    </string-array>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+</resources>
